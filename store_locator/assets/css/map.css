@@ -1,0 +1,47 @@
+#map{
+    height: 500px;
+}
+.store-locator-search-storeby-location{
+    display: flex;
+    flex-direction: column;
+}
+.address-wrapper{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+.map-wrapper{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px 30px;
+}
+#location-list{
+    width: 30%;
+}
+#location-list-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+}
+#map-container{
+    width: 80%;
+}
+#location-list-content .store-location{
+    background-color: #0062411a;
+    box-shadow: 5px 10px #888888;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.store-location p{
+    font-size: 0.8rem;
+}
+.store-name{
+    font-weight: bold;
+}
+.store-address p{
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,34 @@
+uuid: ffa393dd-91a3-41c3-a114-3e6c162b220f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.stores.body
+    - field.field.node.stores.field_address
+    - field.field.node.stores.field_coordinates
+    - node.type.stores
+  module:
+    - text
+    - user
+id: node.stores.teaser
+targetEntityType: node
+bundle: stores
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_address: true
+  field_coordinates: true

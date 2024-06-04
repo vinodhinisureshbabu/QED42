@@ -1,0 +1,18 @@
+uuid: 4e35bd1f-5a09-4788-9cf5-71f4e24013bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stores
+id: node.stores.title
+field_name: title
+entity_type: node
+bundle: stores
+label: 'Store Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

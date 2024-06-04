@@ -1,0 +1,8 @@
+name: 'Store Locator'
+type: module
+description: 'Maintains the code related to store locations and its discovery'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:geolocation
+  

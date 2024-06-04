@@ -1,0 +1,11 @@
+services:
+  store_locator.geocodes:
+    class: Drupal\store_locator\Services\OpenStreetMapService
+    arguments: [ '@http_client']
+    tags:
+      - { name: open_street_map_service }
+  store_locator.stores_provider:
+    class: Drupal\store_locator\Services\StoresProvider
+    tags:
+      - { name: stores_provider }
+  

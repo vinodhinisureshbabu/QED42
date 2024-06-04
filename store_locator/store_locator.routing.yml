@@ -1,0 +1,22 @@
+store_locator.get_stores:
+  path: '/get-stores'
+  defaults:
+    _title: 'Stores'
+    _controller: '\Drupal\store_locator\Controller\StoresController::page'
+  requirements:
+    _permission: 'access content'
+
+store_locator.search_stores:
+  path: '/store-locator'
+  defaults:
+    _title: 'Search Store'
+    _form: 'Drupal\store_locator\Form\SearchStorebyLocation'
+  requirements:
+    _permission: 'access content'
+store_locator.autocomplete:
+  path: '/autocomplete/address'
+  defaults:
+    _controller: '\Drupal\store_locator\Controller\AddressAutoComplete::handleAutocomplete'
+    _format: json
+  requirements:
+    _permission: 'access content'

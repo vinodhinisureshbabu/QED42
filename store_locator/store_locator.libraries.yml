@@ -1,0 +1,20 @@
+leaflet:
+    header: true
+    remote: https://leafletjs.com/
+    version: '1.7.1'
+    license:
+      name: BSD 2-clause "Simplified" License
+      url: https://github.com/Leaflet/Leaflet/blob/master/LICENSE
+      gpl-compatible: true
+    css:
+      component:
+        'https://unpkg.com/leaflet@1.8.0/dist/leaflet.css': { type: external, minified: true }
+    js:
+      'https://unpkg.com/leaflet@1.8.0/dist/leaflet.js': { type: external, minified: true }
+
+map:
+  css:
+    theme:
+      assets/css/map.css: {}
+  js:
+   assets/js/map.js: {}

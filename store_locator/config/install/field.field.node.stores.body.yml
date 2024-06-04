@@ -1,0 +1,24 @@
+uuid: bc556086-2c29-4f8b-8586-146dfbf75c67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.stores
+  module:
+    - text
+id: node.stores.body
+field_name: body
+entity_type: node
+bundle: stores
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
