@@ -4,6 +4,8 @@ The Store Locator module is a used to facilate the store locator functionality i
 
 The primary use case for this module is:
 
+- It will allow the user to search for available stores as per the location input
+- By default , it will detect the current user location and show near by stores within 500 km 
 - Content type called "store" will be created when installing the module which will be used to save the store information.
 - For the map implementation "LeafLet Library" is Utilized
 - For Geo Coding "Open Street Map Service" Utilized
